@@ -1,0 +1,114 @@
+    body{
+        margin:0px;
+        /* width: 100px; */
+        padding:0;
+        background-image: url(https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg?auto=compress&cs=tinysrgb&w=600);
+        font-family: 'Concert One',cursive;
+        background-position:center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        backdrop-filter: 4%;
+    }
+    .left{
+        position: absolute;
+        left: 35px;
+        top:6px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+    .mid{
+        display:inline;
+        padding: 30px;
+        width:50%;
+        margin:20px 300px;
+        /* border:1px solid grey; */
+    }
+    .right{
+        position: absolute;
+        right: 20px;
+        top:20px;
+        display: inline-block;
+        /* border:2px solid lightgreen */
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size:20px;
+    }
+    .navbar li a{
+        color: rgb(255, 255, 255);
+        text-decoration:none;
+        padding: 35px 20px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color:grey;
+    }
+    .left img{
+        width: 150px;
+        filter:invert(100%);
+        padding: 25px ;
+        
+    }
+    .left div{
+        text-align: center;
+        color: #ffffff;
+        line-height: 10px;
+        font-size: 25px;
+    }
+    .btn{
+        margin:4px 6px;
+        background-color:rgb(0, 0, 0);
+        color: aliceblue;
+        padding: 4px 14px;
+        border:1px solid white;
+        border-radius: 4px;
+        font-family:'Concert One',cursive;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:cadetblue
+    }
+    .container{
+        border: 1px solid greenyellow;
+        border-radius: 8px;
+        margin: 150px 300px;
+        display: inline-block;
+        padding: 80px 80px;
+        color:rgb(244, 219, 219);
+        border-color: white;
+    }
+    .container h2{
+        text-align: center;  
+        font-weight:300; 
+        filter:drop-shadow(50);
+    }
+    .form-group input{
+        font-family: 'Concert One',cursive;
+        text-align: center;
+        padding: 5px 8px;
+        margin: 11px 8px;
+        display: block;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    .but{
+        border: 1px solid white;
+        border-radius: 7px;
+        margin: 10px;
+        background-color:black;
+        color:white;
+        width: 415px;
+        padding: 3px;
+        font-family: 'Concert One',cursive;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .but:hover{
+        background-color:rgb(72, 103, 103);
+    }
